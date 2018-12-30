@@ -8,7 +8,6 @@
     android:gravity="center_horizontal"
     tools:context=".main.MainActivity">
 
-
     <ImageView
         android:id="@+id/logo"
         android:layout_marginTop="30dp"
@@ -17,16 +16,17 @@
         android:src="@mipmap/ic_launcher"/>
 
     <Button
+        android:id="@+id/signIn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In" />
+
+    <Button
         android:id="@+id/signUp"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up" />
 
-    <Button
-        android:id="@+id/logIn"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Log In" />
 </LinearLayout>
